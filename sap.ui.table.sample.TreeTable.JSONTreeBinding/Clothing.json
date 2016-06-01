@@ -1,0 +1,55 @@
+{
+    "tariffs": [
+    	{"name": "Section1", "amount": 16.99, "tariffs": [
+        {"name": "Chapter1", "amount": 16.99, "tariffs": [
+          {"name":"Group1", "tariffs": [
+              {"name": "123456", "amount": 16.99, "currency": "EUR", "size": "S"},
+              {"name": "654321", "amount": 47.99, "currency": "EUR", "size": "M"},
+              {"name": "Long Blue Dinner Dress", "amount": 103.99, "currency": "USD", "size": "L"}
+            ]},
+            {"name": "Group2", "tariffs": [
+              {"name": "Printed Shirt", "amount": 24.99, "currency": "USD", "size": "M"},
+              {"name": "Tank Top", "amount": 14.99, "currency": "USD", "size": "S"}
+            ]}
+            ]},
+           {"name": "Chapter2", "tariffs": [
+            {"name": "Group2", "tariffs": [
+              {"name": "Red Pant", "amount": 32.99, "currency": "USD", "size": "M"},
+              {"name": "Skinny Jeans", "amount": 44.99, "currency": "USD", "size": "S"},
+              {"name": "Black Jeans", "amount": 99.99, "currency": "USD", "size": "XS"},
+              {"name": "Relaxed Fit Jeans", "amount": 56.99, "currency": "USD", "size": "L"}
+            ]},
+            {"name": "Group3", "tariffs": [
+              {"name": "Striped Skirt", "amount": 24.99, "currency": "USD", "size": "M"},
+              {"name": "Black Skirt", "amount": 44.99, "currency": "USD", "size": "S"}
+            ]}
+          ]}
+        ]},
+        	{"name": "Section2", "tariffs": [
+        {"name": "Chapter1", "tariffs": [
+          {"name":"Group1", "tariffs": [
+              {"name": "Casual Red Dress", "amount": 16.99, "currency": "EUR", "size": "S"},
+              {"name": "Short Black Dress", "amount": 47.99, "currency": "EUR", "size": "M"},
+              {"name": "Long Blue Dinner Dress", "amount": 103.99, "currency": "USD", "size": "L"}
+            ]},
+            {"name": "Group2", "tariffs": [
+              {"name": "Printed Shirt", "amount": 24.99, "currency": "USD", "size": "M"},
+              {"name": "Tank Top", "amount": 14.99, "currency": "USD", "size": "S"}
+            ]}
+            ]},
+           {"name": "Chapter2", "tariffs": [
+            {"name": "Group2", "tariffs": [
+              {"name": "Red Pant", "amount": 32.99, "currency": "USD", "size": "M"},
+              {"name": "Skinny Jeans", "amount": 44.99, "currency": "USD", "size": "S"},
+              {"name": "Black Jeans", "amount": 99.99, "currency": "USD", "size": "XS"},
+              {"name": "Relaxed Fit Jeans", "amount": 56.99, "currency": "USD", "size": "L"}
+            ]},
+            {"name": "Group3", "tariffs": [
+              {"name": "Striped Skirt", "amount": 24.99, "currency": "USD", "size": "M"},
+              {"name": "Black Skirt", "amount": 44.99, "currency": "USD", "size": "S"}
+            ]}
+          ]}
+        ]}
+        ]}
+
+ 

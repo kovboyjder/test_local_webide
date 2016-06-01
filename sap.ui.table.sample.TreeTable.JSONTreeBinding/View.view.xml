@@ -1,0 +1,32 @@
+<mvc:View controllerName="sap.ui.table.sample.TreeTable.JSONTreeBinding.Controller" xmlns:core="sap.ui.core" xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:u="sap.ui.unified" xmlns="sap.ui.table">
+	<m:Page class="sapUiSizeCompact" enableScrolling="false" showHeader="false">
+		<m:content>
+			<TreeTable enableSelectAll="false" id="TreeTableBasic" rows="{path:'/', parameters: {arrayNames:['tariffs']}}" selectionMode="SingleSelect" rowSelectionChange="onRowChange">
+				<toolbar>
+					<m:Toolbar>
+						<m:Title text="Tariff Search"/>
+						<m:ToolbarSpacer/>
+						<m:SearchField liveChange="onSearch" width="200px" />
+						<m:Button press="onCollapseAll" text="Collapse all"/>
+						<m:Button press="onExpandAll" text="Expand all"/>
+					</m:Toolbar>
+				</toolbar>
+				<columns>
+					<Column width="13rem">
+						<m:Label text="Tariffs"/>
+						<template>
+							<m:Text text="{name}"/>
+						</template>
+					</Column>
+					<Column width="9rem">
+						<m:Label text="Description"/>
+						<template>
+							<m:Text text="{amount}" />
+						</template>
+					</Column>
+				</columns>
+			</TreeTable>
+		</m:content>
+	</m:Page>
+</mvc:View>
